@@ -40,13 +40,13 @@ const Page = () => {
       router.push(`/verify/${phoneNumber}`);
     } catch (err) {
       console.log(err);
-      if(isClerkAPIResponseError(err)){
-        if(err.errors[0].code === 'form_identifier_exists'){
-            console.log('user exists');
-            await trySignIn();
-        }else{
-            setLoading(false);
-            Alert.alert('Error',err.errors[0].message);
+      if (isClerkAPIResponseError(err)) {
+        if (err.errors[0].code === "form_identifier_exists") {
+          console.log("user exists");
+          await trySignIn();
+        } else {
+          setLoading(false);
+          Alert.alert("Error", err.errors[0].message);
         }
       }
     }
