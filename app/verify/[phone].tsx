@@ -55,9 +55,9 @@ const Page = () => {
     }
   };
 
-  const verifySignIn = async () => { };
+  const verifySignIn = async () => {};
 
-  const resendCode = async () => { };
+  const resendCode = async () => {};
 
   return (
     <View style={styles.container}>
