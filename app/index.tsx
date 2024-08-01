@@ -7,9 +7,9 @@ import {
   TouchableOpacity,
   Linking,
 } from "react-native";
+import { Link } from "expo-router";
 import welcomeImage from "@/assets/images/welcome.png";
 import Colors from "@/constants/Colors";
-import { Link } from "expo-router";
 const welcome_image = Image.resolveAssetSource(welcomeImage).uri;
 
 const index = () => {
