@@ -15,7 +15,7 @@ const welcome_image = Image.resolveAssetSource(welcomeImage).uri;
 
 const index = () => {
   const openLink = () => {
-    Linking.openURL("https://google.com/");
+    Linking.openURL("https://google.com");
   };
 
   return (
