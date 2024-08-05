@@ -21,7 +21,7 @@ const index = () => {
   return (
     <View style={styles.container}>
       <Image source={{ uri: welcome_image }} style={styles.welcome} />
-      <Text style={styles.headline}>Welcome To WhatsApp</Text>
+      <Text style={styles.headline}>Welcome To WhatsApp Clone</Text>
       <Text style={styles.description}>
         Read our{" "}
         <Text style={styles.link} onPress={openLink}>
