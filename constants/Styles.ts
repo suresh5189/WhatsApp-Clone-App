@@ -1,5 +1,5 @@
-import Colors from "@/constants/Colors";
 import { StyleSheet } from "react-native";
+import Colors from "@/constants/Colors";
 
 export const deafultStyles = StyleSheet.create({
   block: {
