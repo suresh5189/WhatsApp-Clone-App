@@ -1,10 +1,10 @@
+import "react-native-reanimated";
 import { useEffect } from "react";
 import { View } from "react-native";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { useFonts } from "expo-font";
 import { Stack, useRouter, useSegments } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
-import "react-native-reanimated";
 import { ClerkProvider, useAuth } from "@clerk/clerk-expo";
 const CLERK_PUBLISHABLE_KEY = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY;
 import * as SecureStore from "expo-secure-store";
