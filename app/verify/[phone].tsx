@@ -7,12 +7,12 @@ import {
   useBlurOnFulfill,
   useClearByFocusCell,
 } from "react-native-confirmation-code-field";
-import Colors from "@/constants/Colors";
 import {
   isClerkAPIResponseError,
   useSignIn,
   useSignUp,
 } from "@clerk/clerk-expo";
+import Colors from "@/constants/Colors";
 
 const CELL_COUNT = 6;
 
