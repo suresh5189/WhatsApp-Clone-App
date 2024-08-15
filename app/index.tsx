@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "expo-router";
 import {
   View,
   Text,
@@ -7,7 +8,6 @@ import {
   TouchableOpacity,
   Linking,
 } from "react-native";
-import { Link } from "expo-router";
 import welcomeImage from "@/assets/images/welcome.png";
 import Colors from "@/constants/Colors";
 
