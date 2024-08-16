@@ -11,8 +11,8 @@ import {
 } from "react-native";
 import React, { lazy, useState } from "react";
 import { useRouter } from "expo-router";
-import Colors from "@/constants/Colors";
 import { Ionicons } from "@expo/vector-icons";
+import Colors from "@/constants/Colors";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import MaskInput from "react-native-mask-input";
 import { useSignIn, useSignUp } from "@clerk/clerk-react";
