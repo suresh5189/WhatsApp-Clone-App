@@ -13,9 +13,9 @@ import React, { lazy, useState } from "react";
 import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { useSignIn, useSignUp } from "@clerk/clerk-react";
 import Colors from "@/constants/Colors";
 import MaskInput from "react-native-mask-input";
-import { useSignIn, useSignUp } from "@clerk/clerk-react";
 import { isClerkAPIResponseError } from "@clerk/clerk-expo";
 
 const Page = () => {
