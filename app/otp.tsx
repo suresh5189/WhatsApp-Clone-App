@@ -14,9 +14,9 @@ import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useSignIn, useSignUp } from "@clerk/clerk-react";
+import { isClerkAPIResponseError } from "@clerk/clerk-expo";
 import Colors from "@/constants/Colors";
 import MaskInput from "react-native-mask-input";
-import { isClerkAPIResponseError } from "@clerk/clerk-expo";
 
 const Page = () => {
   const [loading, setLoading] = useState(false);
