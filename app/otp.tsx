@@ -14,8 +14,8 @@ import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useSignIn, useSignUp } from "@clerk/clerk-react";
-import Colors from "@/constants/Colors";
 import { isClerkAPIResponseError } from "@clerk/clerk-expo";
+import Colors from "@/constants/Colors";
 import MaskInput from "react-native-mask-input";
 
 const Page = () => {
