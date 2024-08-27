@@ -88,7 +88,7 @@ const InitialLayout = () => {
         name="verify/[phone]"
         options={{
           headerTitle: "Verify Your Phone Number",
-          headerBackTitle: "Edit number",
+          headerBackTitle: "Edit Number",
         }}
       />
     </Stack>
