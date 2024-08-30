@@ -28,7 +28,7 @@ const Page = () => {
   const { signIn } = useSignIn();
 
   const openLink = () => {
-    Linking.openURL("https://facebook.com");
+    Linking.openURL("https://google.com");
   };
 
   const sendOTP = async () => {
